@@ -1,0 +1,90 @@
+* {
+  margin: 0; padding: 0; background-color:#005c5c; 
+  }
+  
+  #header{
+    text-align:center;
+    font-family: "Segoe UI";
+    color:#D63385;
+  }
+  #photo{
+    height:50%;
+    width:50%;
+    float:left;
+  }
+  #about-me-header{
+    color:#D63385;
+    width:50%;
+    font-family:"segoe UI"
+    font-stretch:expand;
+    float:right;
+    text-align:center;
+    
+  }
+  #about-me{
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+  }
+  
+  #movies-header{
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+    margin-top:25px
+  }
+  
+  #movies{
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+  }
+  
+  #youtube-link{
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+    margin-top:25px
+  }
+  
+  #closure1{
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+    margin-top:25px
+  }
+  
+  #closure2{
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+    margin-top:25px
+  }
+  
+  #blog-link {
+    float:right;
+    font-family:"Segoe UI";
+    color:#D63385;
+    width:50%;
+    float:right;
+    text-align:center;
+    margin-top:25px
+  }
