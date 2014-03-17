@@ -1,0 +1,44 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="989" measuredH="615" mockupW="929" mockupH="615">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="0" w="929" h="615" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>12745632</color>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="958" y="126" w="-1" h="450" measuredW="16" measuredH="100" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="374" y="126" w="300" h="450" measuredW="200" measuredH="140" zOrder="2" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>*About%20me%0A%20%0A*%20Stuff%20I%20like%0A%20%0A*%20Stuff%20I%20don%27t%20like</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="139" y="126" w="147" h="193" measuredW="720" measuredH="960" zOrder="3" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>./551339_10102420376802381_1656324654_n%2520%283%29.jpg</src>
+        <text>Mom%2C%20Me%2C%20and%20Grant</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="104" y="354" w="216" h="183" measuredW="960" measuredH="716" zOrder="4" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>./284084_10101855326203311_1715557820_n.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="723" y="126" w="-1" h="-1" measuredW="200" measuredH="200" zOrder="5" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./181791_10100228533728471_5172613_n.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Image" x="723" y="374" w="206" h="155" measuredW="720" measuredH="480" zOrder="6" locked="true" isInGroup="-1">
+      <controlProperties>
+        <href>http%3A//youtu.be/XrqM73Zuzk0</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22663%2C374%2C869%2C529%22%20href%3D%22http%3A//youtu.be/XrqM73Zuzk0%22%20alt%3D%22http%3A//youtu.be/XrqM73Zuzk0%22%20id%3D%2217%22%20target%3D%22_blank%22/%3E</map>
+        <src>./61122_10100099272289431_7867946_n.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
