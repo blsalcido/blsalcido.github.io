@@ -1,4 +1,4 @@
-html{
+ html{
   background-image: url("http://t.wallpaperweb.org/wallpaper/development/1680x1050/orange_flower_1680x1050.jpg");
   background-size:cover;
   background-repeat:no-repeat;
@@ -19,18 +19,17 @@ html{
    color:#194719;
    text-align:center;
    font-weight:bold;
-   float:left;
-   margin-left:15px;
+   font-size:16;
    width:500px;
    height:auto;
-   margin: 10px 10px 10px 20px; 
-   padding: 8px; 
-   height: 400px;
+   float:left;
+   padding: 10px; 
+   height: 450px;
    overflow-y:scroll;
    overflow-x:hidden;
    }
    
   .about-me img{
-    width:500px;
+    width:300px;
     height:auto;
   }
