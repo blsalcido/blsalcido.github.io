@@ -1,0 +1,36 @@
+html{
+  background-image: url("http://t.wallpaperweb.org/wallpaper/development/1680x1050/orange_flower_1680x1050.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:100%;
+  min-width:100%;
+  }
+ 
+ #greeting{
+   background-color:transparent;
+   color:#194719;
+   text-align:center;
+   font-weight: bold;
+   font-size:125%;
+   }
+ .about-me p{
+   border:1px solid grey;
+   background-color:transparent;
+   color:#194719;
+   text-align:center;
+   font-weight:bold;
+   float:left;
+   margin-left:15px;
+   width:350px;
+   height:auto;
+   margin: 10px 10px 10px 20px; 
+   padding: 8px; 
+   height: 400px;
+   overflow-y:scroll;
+   overflow-x:hidden;
+   }
+   
+  .about-me img{
+    width:300px;
+    height:auto;
+  }
