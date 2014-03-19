@@ -1,85 +1,88 @@
-<!DOCTYPE html>
-<head> <link rel ="stylesheet" type="text/css" href="unit1_week1/class1/practice/reset.css" media ="screen"/> </head>
-<title>new-index</title>
- <body>
-   <div id = "greeting">
-     <h1><strong>Hi, I'm Bridgette.</strong></h1>
-     <hr>
-   </div>
+ <!DOCTYPE html>
+ <title>About Bridgette</title>
+<head><link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'></head>
+ <style>
+@font-face{
+  font-family: 'Montez'
+  src url (http://fonts.googleapis.com/css?family=Montez);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block; 
+}
+body {
+  line-height: 1; font-family: 'font-family: 'Montez', cursive;'
+}
+a:hover {
+  color: black ;
+  background-color: #def ;
+}
+header{
+  display:block; position:relative;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-   <div class = "about-me">
-     <p>
-       <strong>Welcome to my first website!</strong>
-       <br>
-       <br>
-       I am currently a Phase-0 student at DBC - San Francisco.
-       In technical terms, this means I'm a n00b at web development.
-       If you would like to learn more about DBC, please visit 
-       their site <a href = "http://devbootcamp.com">here.</a>
-       <br>
-       <br>
-       So far, learning how to code has been incredibly challenging
-       and inspiring. I'm looking forward to the day when I'll be able 
-       to bring beautiful, useful, and reliable programs to users 
-       everywhere. 
-       <br>
-       <br>
-       I am originally from Arizona but currently live in Hawaii
-       with my husband. It's been wonderful living in Hawaii in
-       spite of pining for quality time with the family and friends
-       we left in Arizona. Hawaii is the sort of place that fosters
-       tranquility and happiness and it'll be hard to say goodbye to
-       it when the time comes. 
-       <br>
-       <br>
-       <img src = "https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash3/t31.0-8/1547981_10103285388417171_431654315_o.jpg" alt = "Makapu'u Beach">
-       <br>
-       <br>
-       All nostalgia aside...oh wait a minute...
-       <br>
-       <br>
-       <img src ="https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash2/t1.0-9/264776_10100619574210211_4810920_n.jpg", alt ="Maunawili Falls Hike">
-       <br>
-       <br>
-       <em>*...sigh...*</em>
-       It sure is lovely here. 
-       <br>
-       <br>
-       <img src = "https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash2/t1.0-9/598998_10101563231104231_2064832166_n.jpg", alt = "Moanalua Valley">
-       <br>
-       <br>
-       As I was saying, all melodrama aside, it's exciting to ponder 
-       the many changes that await my husband and me. We always have 
-       been the adventurers of the family...
-       <br>
-       <br>
-       <img src = "https://scontent-b-sjc.xx.fbcdn.net/hphotos-frc3/t1.0-9/371_634809165281_2911_n.jpg", alt = "Laura Croft and Duke Nukem">
-       <br>
-       <br>
-       And, of course, there's always the possibility of children in 
-       the not-so-distant future. That is, if we can ever figure "it" out...
-       <br>
-       <br>
-       <img src ="https://scontent-b-sjc.xx.fbcdn.net/hphotos-frc3/t1.0-9/27787_917227212251_3343121_n.jpg"; alt = "Awkward">
-       <br>
-       <br>
-       Then again, I might still have too much "fight" left in me for kids...
-       <br>
-       <br>
-       <iframe width="300" height="315" src="//www.youtube.com/embed/XrqM73Zuzk0" frameborder="0" allowfullscreen></iframe>
-       <br>
-       <br>
-       Indeed, leaving Hawaii will have its difficulties. But, hey, 
-       at least I don't have it as bad as this poor fellow...
-       <br>
-       <br>
-       <img src ="https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash2/t1.0-9/407231_10101182086665741_1182684623_n.jpg";alt ="Falling Down">
-       <br>
-       <br>
-       Thanks for reading! I look forward to updating this site soon! Ya'll come back now!
-     </p>
-   </div>
+</style>
+
+  <body>
+    <header>
+      <h1>Hi, I'm Bridgette.</h1>
+      <br>
+      <nav>
+        <ul>
+          <li><a href = "#blog">Go to my blog!</a></li>
+          <li><a href = "#about-me">Go to my personal site!</a></li>
+        </ul>
+      </nav>
+      <br>
+    </header>
+    <section>
+      <blog>
+        I am a student at DBC. Since Phase 0 startd, I've written a 
+        <a href = http://blsalcido.github.io/unit1_week1/blog.html>blog post!</a> Enjoy!
+      </blog>
+      <br>
+      <about-me>
+        I have also designed a <a href = http://blsalcido.github.io/index.html>site!</a> Enjoy! 
+      </about-me>
+      <br>
+    </section>
+    <footer>That is all.</footer>
   </body>
-</html>
  
 
