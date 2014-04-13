@@ -1,0 +1,58 @@
+body{
+  background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/2896/2896301.png');
+  color: #240F37;
+  text-align: center;
+}
+    
+header{
+  font-family: 'Henny Penny', cursive;
+  letter-spacing: 5px;
+  text-align:center;
+  height: auto;
+  background-color: #EDEEBA;
+  border-left: .2em solid #B20152;
+  border-right: .2em solid #B20152;
+  border-bottom: .2em solid #B20152;
+  border-top: .2em solid #B20152;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+        
+h2{
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+}
+        
+#relpos{
+  position:relative;
+  width: 70%;
+  height:70%;
+}
+
+#abspos{
+  position: relative;
+  width: 70%;
+  height: 100%;  
+}
+
+a:link {text-decoration:underline; color: #240F37;}
+a:visited {text-decoration:underline; color: #240F37;}
+a:hover {text-decoration:underline; color: #B20152;}
+a:active {text-decoration:underline; color: #B20152;}
+
+section{
+  overflow: hidden;
+  background-color: #EDEEBA;
+  width: 60%;
+  border-left: .2em solid #B20152;
+  border-right: .2em solid #B20152;
+  border-bottom: .2em solid #B20152;
+  border-top: .2em solid #B20152;
+  position: relative;
+  top:30px;
+  margin: 0em auto;
+  padding: 1em;
+}
+
+
+
