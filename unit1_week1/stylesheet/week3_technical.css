@@ -1,20 +1,21 @@
 html {  
   background-image: url("https://s3.amazonaws.com/ooomf-com-files/vHCIoA1RoaoQNsDXrtxQ_DSC_0983.JPG");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-color: #E3ECF5;
   background-repeat: no-repeat;
   min-height:100%;
   min-width:100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding-top: 0em;
-  padding-bottom: 18em; 
+  padding-top: 0;
   margin: 0;
 }
 
 #hi{
 	text-align: center;
 	color: #000000;
-	padding: 0;
+	padding-top: 15px;
 	margin: 0;
 }
 
@@ -55,30 +56,32 @@ h4{
 
 #intro{
 	float: left;
+	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-left: 8px;
 	border: .1em solid grey;
 	width: 25%;
-	height: 100%;
+	height: 675px;
 	text-align: center;
 	line-height: 28px;
 	color: #21575B;
 	background-color: transparent;
 	overflow-y:scroll;
     overflow-x:hidden;
-    position: absolute;
+    position: relative;
     font-family: 'Josefin Sans';
 }
 
 #java_topic{
 	display: inline-block;
+	position: relative;
 	padding-left: 10px;
 	padding-right: 10px;
     float: left;
-    margin-left: 365px;
+    margin-left: 15px;
     margin-right: 15px;
-    height: 390px;
+    height: 345px;
     line-height: 28px;
 	border: .1em solid grey;
 	width: 40%;
@@ -91,15 +94,15 @@ h4{
 }
 
 #links{
-	float: right;
+	/*float: right;*/
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-right: 40px;
+	margin-right: 8px;
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	border: .1em solid grey;
 	width: 25%;
-	height: 100%;
+	height: 675px;
 	text-align: center;
 	line-height: 28px;
 	color: #21575B;
@@ -111,7 +114,7 @@ h4{
 
 #quote{
 	position: absolute;
-    bottom: -275px;
+    bottom: -300px;
     text-align: center;
     font-family: 'Forum', cursive;
     letter-spacing: 5px;
