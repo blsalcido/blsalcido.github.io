@@ -1,8 +1,8 @@
 html {  
   background-image: url("https://s3.amazonaws.com/ooomf-com-files/vHCIoA1RoaoQNsDXrtxQ_DSC_0983.JPG");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  background-color: #E3ECF5;
+  background-color: #21575B;
   background-repeat: no-repeat;
   min-height:100%;
   min-width:100%;
@@ -12,16 +12,21 @@ html {
   margin: 0;
 }
 
+@font-face{
+  font-family: 'Clicker Script', cursive
+  src url (http://fonts.googleapis.com/css?family=Clicker+Script);
+  }
+
 #hi{
 	text-align: center;
 	color: #000000;
-	padding-top: 15px;
+	padding-top: 0;
 	margin: 0;
 }
 
 #name{
 	text-align: center;
-	font-family: 'Forum', cursive;
+	font-family: 'Clicker Script', cursive;
 	letter-spacing: 10px;
 	color: #EF0C0C;
 	padding: 0;
@@ -114,15 +119,24 @@ h4{
 
 #quote{
 	position: absolute;
-    bottom: -300px;
+    bottom: -315px;
     text-align: center;
-    font-family: 'Forum', cursive;
+    font-family: 'Clicker Script', cursive;
     letter-spacing: 5px;
     text-decoration: none;
     margin-left: 10px;
 }
 
-a:link {text-decoration:underline; color: #232539;}
-a:visited {text-decoration:underline; color: #232539;}
+#list_img{
+	list-style-type: square;
+	list-style-position: inside;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+a:link {text-decoration:underline; color: #21575B;}
+a:visited {text-decoration:underline; color: #21575B;}
 a:hover {text-decoration:underline; color: #EF0C0C;}
 a:active {text-decoration:underline; color: #EF0C0C;}
