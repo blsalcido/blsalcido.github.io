@@ -1,0 +1,207 @@
+/*// Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+____________________________________________________________________________________________________________________
+
+/*html,
+body {
+	c*/olor: #000;
+}
+
+/*
+Header
+*/
+
+
+
+html {  
+  background-image: url("https://s3.amazonaws.com/ooomf-com-files/vHCIoA1RoaoQNsDXrtxQ_DSC_0983.JPG");
+  background-size: cover;
+  background-position: center;
+  background-color: #21575B;
+  background-repeat: no-repeat;
+  min-height:100%;
+  min-width:100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 0;
+  margin: 0;
+}
+
+@font-face{
+  font-family: 'Clicker Script', cursive
+  src url (http://fonts.googleapis.com/css?family=Clicker+Script);
+  }
+
+#hi{
+	text-align: center;
+	color: #000000;
+	padding-top: 0;
+	margin: 0;
+}
+
+#name{
+	text-align: center;
+	font-family: 'Clicker Script', cursive;
+	letter-spacing: 10px;
+	color: #EF0C0C;
+	padding: 0;
+	margin: 0;
+	font-size: 300%;
+}
+
+#java_h1{
+	text-align: center;
+	text-decoration: underline;
+	color: #000000;
+	font-size: 200%;
+	font-weight: bold;
+	padding: 10px;
+	margin:0;
+}
+
+h2{
+  color:#000000;
+  text-decoration: underline; 
+  margin: 0;
+  padding: 0;
+}
+
+h4{
+	color: #000000; 
+	margin: 0;
+	padding: 0;
+	letter-spacing: 5px;
+	font-family: 'Forum', cursive;
+} 
+
+#intro{
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 8px;
+	border: .1em solid grey;
+	width: 25%;
+	height: 675px;
+	text-align: center;
+	line-height: 28px;
+	color: #21575B;
+	background-color: transparent;
+	overflow-y:scroll;
+    overflow-x:hidden;
+    position: relative;
+    font-family: 'Josefin Sans';
+}
+
+#java_topic{
+	display: inline-block;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 345px;
+    line-height: 28px;
+	border: .1em solid grey;
+	width: 40%;
+	text-align: center;
+	color: #21575B;
+	background-color: transparent;
+	overflow-y:scroll;
+    overflow-x:hidden;
+    font-family: 'Josefin Sans';
+}
+
+#links{
+	/*float: right;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 8px;
+	display: inline-block;
+	position: relative;
+	border: .1em solid grey;
+	width: 25%;
+	height: 675px;
+	text-align: center;
+	line-height: 28px;
+	color: #21575B;
+	background-color: transparent;
+	overflow-y:scroll;
+    overflow-x:hidden;
+    font-family: 'Josefin Sans';
+}
+
+#quote{
+	position: absolute;
+	padding-left: 10px;
+	padding-right: 10px;
+    bottom: -315px;
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#list_img{
+	list-style-type: square;
+	list-style-position: inside;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+a:link {text-decoration:underline; color: #21575B;}
+a:visited {text-decoration:underline; color: #21575B;}
+a:hover {text-decoration:underline; color: #EF0C0C;}
+a:active {text-decoration:underline; color: #EF0C0C;}
