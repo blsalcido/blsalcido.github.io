@@ -187,6 +187,11 @@ h4{
   font-family: 'Forum', cursive;
 } 
 
+h3{
+  color: black;
+  text-align: center;
+}
+
 a:link {text-decoration:underline; color: #21575B;}
 a:visited {text-decoration:underline; color: #21575B;}
 a:hover {text-decoration:underline; color: #EF0C0C;}
