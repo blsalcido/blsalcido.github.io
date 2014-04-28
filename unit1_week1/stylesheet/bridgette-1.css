@@ -192,6 +192,13 @@ h3{
   text-align: center;
 }
 
+
+#examples{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
 a:link {text-decoration:underline; color: #21575B;}
 a:visited {text-decoration:underline; color: #21575B;}
 a:hover {text-decoration:underline; color: #EF0C0C;}

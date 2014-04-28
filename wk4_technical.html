@@ -42,7 +42,7 @@
          What are arrays and what are hashes? In the most basic sense, they're the same thing. Yep, I said it. I'll attempt a comparison: You can think of arrays and hashes like vehicles. <strong>Basically</strong>, all vehicles are the same thing. Value judgements aside, a sedan is a truck is a motorcycle is a bus is a van is a <a href="http://en.wikipedia.org/wiki/Flying_Pigeon"> flying pigeon</a>. Fundamentally, they're all the same but, each posesses features that make their use ideal in some situations but not in others. Arrays and hashes are both sets of data. They are sets, fundamentally. But each have certain characteristics that are better suited to certain situations. 
 
         <p>
-         So what "sets" arrays and hashes apart? (Yes, I'm proud of myself.) Arrays give programmers no control over the key associated with a value, or, "element". The key, or "index", of an array is automatically set by virtue of the data structure itself and cannot be altered. No matter the content of the array, it's element will be set to a corresponding index number by default in the order that the information was passed in to the array. [Example]
+         So what "sets" arrays and hashes apart? (Yes, I'm proud of myself.) Arrays give programmers no control over the key associated with a value, or, "element". The key, or "index", of an array is automatically set by virtue of the data structure itself and cannot be altered. No matter the content of the array, it's element will be set to a corresponding index number by default in the order that the information was passed in to the array. 
         </p>
         
         <p>
@@ -55,21 +55,140 @@
        
         <p>
           <h3>Methodology for Choosing a Data Structure</h3> 
-          <h4>Ask Yourself</h4>
-          <ol>
-            <li></li>
-          </ol>
-        </p>  
+          <h4>Ask Yourself:</h4>
+          <br>
+            1. Is your data a list an are you comfortable with that list being stored in the order that it is entered into the data structure?
+          <br>
+            2. Is your data relational? (Does each component of your data have a value that it corresponds to directly?)</li>
+          If you answered yes to question 1, you want to use an array. If you answered yes to question 2, you want to use a hash. 
+        </p>
+          <h3>Which Loop to use?</h3>  
+      
+        <p>
+          Let's begin by defining what a loop is. A loop structure asks a program a question. "Is this equal to that?" or "This IS that, agreed?". If the answer to the question asked prompts the program for an action, the action is performed and the question is re-asked again and again until the answer to the question changes to a value that tells the program that no further action is required. Each pass through a given loop is called an <strong>iteration</strong>. Loops are powerful tools for making code non-repetitive, or DRY (Don't Repeat Yourself - a rule of thumb developers consider when writing and refactoring code. It basically means, try not to write the same thing twice. If written properly, loops can help accomplish dry code, so can methods.) They are meant to tell the computer to bein and repeat a certain process until otherwise instructed by a change in the conditions the developer defines using a boolean value (true or false value), or other specified fact.
+        </p>
 
         <p>
-        JavaScript's multi-dimensional capabilities help transform static web sites into more dynamic, user-friendly environments in which the page is able to respond to user actions without requiring the user to wait for new pages to load while their request is being processed.
+          There are a few different types of loops that I will dicuss here. They are: 1. For loops; 2. While loops; 3. If/Else loops. 
         </p>
+
         <p>
-        JavaScript also allows web developers to add aminations, pop-ups, and slideshows to web pages. This can be very useful when attempting to draw a user's attention to a specific part of the web page and improves the visitor's overall experience. This explains why JavaScript gained so much popularity among developers in the early days of web development. 
+          For loops are loops in which a specific action is repeated a specified number of times determined by the program designer. This loop will count the number of times the action will be executed. "For" example (yes, I'm proud of myself again):
+            <div = id = "examples">  
+              x = 5
+              <br>
+              for each of these things do |x|
+                <br>
+                x.times 
+                  <br>
+                  multiply each thing by 1
+              <br>
+              end 
+            </div>  
+        
+
+      
+          As you can see, the number of times we want the loop to execute is known so, we specify some action we want to take place that given number of times. For loops work best for situations like this.       
         </p>
+          
+
         <p>
-        Also noteworthy is <a href = "http://nodejs.org" target = "_blank">node.js</a>. Node is a platform for building scalable applications that maximize throughput and efficiency. Node applications are written in JavaScript and the advantage here is node's asynchronous I/O model that aids in the processing of data for real-time applications. Asynchronous, or, "non-blocking I/O" is a type of input/output processing that allows for the continual processing of data before transmission is complete. This model for processing information greatly improves the responsiveness of applications and has added to the popularity of JavaScript as a powerful and dynamic language. 
-        </p>  
+          While loops are pretty similar to for loops except, they will execute a specific action <strong>until</strong> a certain condition is met. So, they're great for situations in which a developer needs a process to be ongoing until there is a change in the environment of the program. For example: 
+            <div id = "examples">
+              counter = 1 
+              <br>
+              while |counter| <= 5  
+                <br>
+                do something until counter = 5 
+                <br>
+                then stop 
+             <br>
+             end 
+            </div>
+        
+        
+          When the condition of "counter" being equal to 5 is met, the loop will stop running. So, again, while loops define a condition of the program's environment and ask it to proceed with some process until a certain condition is met. If no condition is defined as a stopping point, you get an <strong>infinite loop</strong>. Infinite loops are specific sets of instructions that never stop being repeated because no stopping-condition was specified. They crash programs. So, never use the condition "while nickelback < nirvana" because the loop whill never stop running. ;-) 
+        </p>
+
+        <p>
+          If/else loops can be thought of as true/false dependent.They are implemented using boolean expressions and, therefore set the most specific type of conditions that must be met in order for the loop to run. They are specific because in order for the loop to execute, the program must identify that <strong>"this" particular</strong> condition is true or false or/<strong>elsif/else</strong> another particular condition is true or false.) For example: 
+            <div id = "examples">
+              x + y 
+              <br>
+              if x + y == 1 
+               <br> 
+                do something
+              <br>
+              elsif x + y == 2   
+                <br>
+                do something else 
+              <br>
+              else
+                <br>
+                do nothing or do something else
+              <br>
+              end
+            </div>
+             
+          As you can see, there are very specific instructions given as compared to the while/for loop example. In order for the program to execute its action, something particular must be either true or false. If/else loops are great in situations where the developer doesn't necessarily know what the result of a given boolean expression will be.         
+        </p>
+       
+        <p>
+          <h3>Methodology for choosing the right loop.</h3>
+          <h4>Ask yourself:</h4>
+
+          <br>
+            1. Do I want the action to be executed until there is a specified change in the environment?</li>
+            <br>
+            2. Do I want to set specific conditions under which, and only under which, the program will run?</li>
+            <br>
+            3. Do I want some action executed a certain number of times?</li>
+  
+            If you answered yes to question 1, you want to use a for loop or while loop. If you answered yes to question 2, you want to use an if/else loop. If you answered yes to question 3, you want to use a for loop. 
+        </p>
+
+        <p>
+          Now let's talk about some of the differences between Ruby and JavaScript as I've experienced them thus far in Phase 0. 
+        </p>
+
+        <p>
+          The difference between Ruby and JavaScript that has stood out to me the most is readability. The first language I ever endeavored to learn is Ruby which, I think is an excellent language to begin with as a programming n00b because it's almost (not quite, but <strong>almost</strong>) possible to predict what a given program is doing when it is written in Ruby and you have no or limitted programming experience. Here's an example of a Ruby method that I've written: 
+            <div id = "examples">
+              def total(nums)
+              <br>
+                nums.inject(:+)
+              <br>
+              end
+            </div>  
+        
+          This method takes all the numbers in an array and adds them together and returns the sum. If you were completely new to programming, you could look at this method and might be able to tell what it does. You're "injecting" an addition sign in between "nums". Not so hard to guess, right? Let's look at a JavaScript function that does the same thing:
+            <div id = "examples">
+              function sum(collection) {
+              <br>
+                total_sum = 0;
+              <br>  
+                for (var i = 0; i < collection.length; i++) {
+              <br>    
+                  total_sum += collection[i];
+              <br>  
+                }
+               <br> 
+                return total_sum;
+              <br>
+              }          
+            </div>
+        
+          WTF? I have no idea what "var i" is. What are all those curly braces? What is "i++"? Maybe there's a more elegant way to write this method in JS but, I really doubt it considering that the person who wrote this method is a former group member of mine that has extensive experience with JS.   
+        </p>
+
+        <p>
+          That's the biggest pro in Ruby for me so far: its readability compared to JavaScript. On the other hand, though, JS is perfect for making web pages dynamic. It directly impacts user experience because it makes sites interactive. 
+        </p>
+
+        <p>
+          Ruby is a baby programming language whereas JS is one of the first object-oriented languages ever. Read more about JavaScript on my blog <a href = "http://blsalcido.github.io" target = "_blank"> here </a>. This fact about Ruby is seen as a drawback to many developers because it takes a lot of time to familiarize oneself with a new language. Developers, often inherently lazy, seem to sometimes prefer sticking to what they know. There's also some debate as to whether or not Ruby is truly "fast" at processing as compared to Java. Tim Bray, Canadian developer and former Sun Microsystem's director of Web Technologies claimed that Ruby was too slow. But, the general consensus seems to be that Ruby is a highly prefered language when it comes to writting code that looks very normal.     
+        </p>
+
       </div>  
     
       <div class = "column inner" id = "links">
