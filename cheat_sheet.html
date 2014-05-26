@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> <link rel ="stylesheet" type="text/css" href="unit1_week1/stylesheet/cheat_sheet.css" media ="screen"/> </head>
+    <title>||Bridgette's|B|L|O|G||</title>
+
+    <body>
+      <div id = "main">
+    <h1>DEFINITION</h1>
+    
+    <p>
+  Enumerables are a set of methods to traverse, search, sort and manipulate collections.
+    </p>
+    <h2>all?</h2>
+    <p>Passes each element of the collection to the given block and returns true or false if the block never returns false.</p>
+    <h2>any?</h2>
+    <p>Similar to all but it passes each element of the collection to the given block and returns true if the block returns ever returns a value other than false.</p>
+    <h2>chunk</h2>
+    <p>Takes an array and separates the consecutive elements that have the same block value.</p>
+    <h2>collect</h2>
+    <p>Outputs a new array that contains the results of a given block after its been applied once for each element.</p>
+    <h2>count</h2>
+    <p>Can be used like .length but if an argument is given, it will count the number of items in the collection.</p>
+    <h2>cycle</h2>
+    <p>Calls block on enum repeatedly n times. If n is not given, this process will repeat forever.  </p>
+    <h2>detect</h2>
+    <p>Given a block, it goes through the collection and returns the first for which block is true and nil if all are false. </p>
+    <h2>drop</h2>
+    <p>You insert a number in the argument and drop will delete that many elements in the collection.</p>
+    <h2>each_cons</h2>
+    <p>Iterates a block n times for each consecutive element in an array </p>
+    <h2>each_slice</h2>
+    <p>Devides n sections, or n "slices", of an array into groups and returns them in new arrays.</p>
+    <h2>each_with_index</h2>
+    <p>Calls a block with 2 arguments and returns each element in the collection with its corresponding index number.</p>
+    <h2>each_with_object</h2>
+    <p>Iterates the given block for every element, requiring an arbitrary object to be given, then returns the initial object reflection changes.</p>
+    <h2>find</h2>
+    <p>Exactly like detect, in fact, the example used in ruby docs is exactly the same as the the example for detect</p>
+    <h2>find_all</h2>
+    <p>Runs a given block then returns a new array containing elements for which the block evaluated to true.</p>
+    <h2>find_index</h2>
+    <p>Compares all elements in enum to a given block and returns the index of the first element that meets the conditions of the given block.</p>
+    <h2>first</h2>
+    <p>Returns the first element in a collection.</p>
+    <h2>grep</h2>
+    <p>Very popularly used with Regex, it returns an array of every element in the collection for which the pattern===element. For example: (1..100).grep 38..44   #=> [38, 39, 40, 41, 42, 43, 44]</p>
+    <h2>group_by</h2>
+    <p>Returns a hash where keys = result from a given block and the values are arrays of elements in enum that correspond to the key. This groups enum by the result of the block given.</p>
+    <h2>include?</h2>
+    <p>Returns true if any element in the collection equals the object.</p>
+    <h2>inject</h2>
+    <p>Can be supplemented with reduce. If using inject, give a block. The block will iterate through the collection and return the result.</p>
+    <h2>map</h2>
+    <p>Will run the block once for every element in enum and then return an array with the results</p>
+    <h2>max</h2>
+    <p>Returns the object in the collection that has the greatest value.</p>
+    <h2>max_by</h2>
+    <p>Pretty much the same as 'max' but calls a block. Even Ruby-docs gives the same definition.</p>
+    <h2>member?</h2>
+    <p>Returns true if any member of enum equals argument passed in</p>
+    <h2>min</h2>
+    <p>Returns the object in enum with the smallest value</p>
+    <h2>min_by</h2>
+    <p>Same as 'min' but calls a block.</p>
+    <h2>minmax</h2>
+    <p>Returns two elements in an  array that contains the min and max values in enum</p>
+    <h2>minmax_by</h2>
+    <p>Same as minmax but calls a block.</p>
+    <h2>none?</h2>
+    <p>Passes each element from a collection through a block and returns true if the block never returns true for any element.</p>
+    <h2>one?</h2>
+    <p>Runs each element through a block and returns true if conditions of the block are met once. If no block is given, this will return true if ONLY one of the collection members evaluates to true</p>
+    <h2>partition</h2>
+    <p>Will output two arrays. The first array will contain the elements of enum where the block evaluates to true and the second array will contain the false elements.</p>
+    <h2>reduce</h2>
+    <p>Combines all the elements in a collection and by applying an operation specified by a block or symbol that calls a method or operator.</p>
+    <h2>reject</h2>
+    <p>Will output an array for all members of a collection of enum for which a given block returns false.</p>
+    <h2>reverse_each</h2>
+    <p>creates a temporary array from enum and reverses the order of its elements</p>
+    <h2>select</h2>
+    <p>Outputs an array that contains the members of a collection that pass the conditions set in a given block.</p>
+    <h2>sort</h2>
+    <p></p>
+    <h2></h2>
+  </div>
+    </body> 
+</html>    	
