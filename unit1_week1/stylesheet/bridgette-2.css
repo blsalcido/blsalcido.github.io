@@ -1,0 +1,231 @@
+/*
+Reset
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+____________________________________________________________________________________________________________________
+
+html,
+body {
+	color: #000;
+	height: 100%;
+}
+
+html {  
+  background-image:url('http://37.media.tumblr.com/8a446f95a89ac1eb042815191d3846f1/tumblr_n1iq0mhJlg1st5lhmo1_1280.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+/*.content {
+  text-align: center; 
+  border-bottom: 2px solid black;
+  font-size: 150%;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: black;
+  opacity: .8;
+  position: center,fixed;
+
+}*/
+
+
+header{
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  background-color: black;
+  opacity: .7;
+  padding-top: 25px;
+  padding-bottom: 25px;
+ }
+
+
+#nav_bar-top{
+  margin-left: 25px;
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  height: 50%;
+  font-size: 150%;
+  margin-bottom: 0px;
+  background-color: black;
+  opacity: .7;
+}
+
+#nav_bar-top li{
+  float: left;
+}
+
+
+#post{
+  height: 500px;
+  position: center, fixed;
+  color: #E0EBFF;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  font-family: 'Josefin Sans';
+  padding: 50px;
+  text-align: justify;
+  background-color: black;
+  opacity: .7;
+  margin-top: 0px;
+}
+
+#post p{
+  position: center, fixed;
+  color: #E0EBFF;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  font-family: 'Josefin Sans';
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 5px;
+  text-align: justify;
+  background-color: black;
+  opacity: .7;
+  margin-top: 0px;
+}
+
+#post h2{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 200%;
+  letter-spacing: 5px;
+}
+
+
+@media (max-width: 767px) {
+    .content{
+        width: 85%;
+    }
+}
+
+.social_media {
+  height: 48px;
+  width: 48px;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.social_media img {
+  border-radius: 50%;
+  margin: 0 0 3em 0;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.social_media li{
+  display: inline;
+}
+
+.social_media img:hover {
+  margin: 0px;
+  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+
+
+#search input[type="text"] {
+    background: url(search-dark.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 115px;
+    padding: 6px 15px 6px 35px;
+    position: absolute;
+    margin-left: 1050px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+#search input[type="text"]:focus {
+    width: 125px;
+}
+
+@font-face{
+  font-family: 'Clicker Script', cursive
+  src url (http://fonts.googleapis.com/css?family=Clicker+Script);
+}
+
+a:link {text-decoration:underline; color: white;}
+a:visited {text-decoration:underline; color: #E0EBFF;}
+a:hover {text-decoration:underline; color: blue;}
+a:active {text-decoration:underline; color: #CC0099;}
