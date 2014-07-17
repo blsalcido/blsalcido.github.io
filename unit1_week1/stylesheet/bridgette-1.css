@@ -66,8 +66,9 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+ /* background-position: center;
+  background-attachment: fixed;*/
+  /*overflow: scroll;*/
   background-color: #21575B;
   background-repeat: no-repeat;
 }
